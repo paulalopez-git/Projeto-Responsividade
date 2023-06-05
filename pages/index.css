@@ -1,0 +1,15 @@
+@import url(./vendor/normalize.css);
+@import url(../blocks/body.css);
+@import url(../blocks/quote.css);
+@import url(../blocks/title.css);
+@import url(../blocks/subtitle.css);
+@import url(../blocks/text.css);
+@import url(../blocks/buttom.css);
+@import url(../blocks/cite.css);
+@import url(../blocks/header.css);
+@import url(../blocks/logo.css);
+@import url(../blocks/intro.css);
+@import url(../blocks/places.css);
+@import url(../blocks/place.css);
+@import url(../blocks/cover.css);
+@import url(../blocks/footer.css);

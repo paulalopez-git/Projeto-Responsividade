@@ -1,0 +1,132 @@
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2a2c2f;
+    padding: 5.5rem 0 0 0;
+    margin: 0 1.5rem;
+}
+
+@media screen and (min-width: 1280px) {
+    .intro{
+        margin-left: 4rem;
+    }
+}
+
+@media screen and (min-width: 20rem)  and (max-width: 767px) {
+    .intro{
+        padding: 2.75rem 0 0 0;
+    }
+}
+
+.intro__title{
+    display: flex;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3.375rem;
+    line-height: 3.625rem;
+    max-width: 63.5625rem;
+    text-align: left;
+    margin: 0;
+}
+
+@media screen and (min-width: 20rem)  and (max-width: 767px){
+    .intro__title{
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+
+.intro__quote{
+    margin: 2.5rem 0 0 0;
+    max-width: 45.125rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.125rem;
+}
+
+@media screen and (min-width: 20rem)  and (max-width: 767px){
+    .intro__quote{
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 30px;
+        margin-top: .5625rem;
+        margin-bottom: 10px;
+    }
+}
+
+.intro__cite{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.125rem;
+    max-width: 45rem;
+}
+
+@media screen and (min-width: 20rem)  and (max-width: 767px){
+    .intro__cite{
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 2.125rem;
+    }
+}
+.intro__text{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 163%;
+    max-width: 45rem;
+    margin: 2rem 0 0 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .intro__text{
+        margin-top: 18px;
+    }
+}
+.intro__images{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 2;
+    margin: 4rem 0 0 0;
+    gap: 1rem;
+    width: 90%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    .intro__images{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 20rem)  and (max-width: 47.9375rem) {
+    .intro__images{
+        display: block;
+        width: 100%;
+        gap: 0;
+        margin: 38px 0 0 0;
+    }
+}
+
+.intro__image{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px){
+    .intro__image{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 20rem)  and (max-width: 767px){
+    .intro__image{
+        width: 100%;
+        margin-bottom: .75rem;
+    }
+}

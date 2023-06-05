@@ -1,0 +1,22 @@
+.places{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    padding: 92px 0;
+}
+
+@media  screen and (min-width: 768px) and (max-width: 1280px) {
+    .places{
+        padding: 92px 0;
+        gap: 4.5rem 0;
+    }    
+}
+
+@media screen and (min-width: 20rem)  and (max-width: 767px) {
+    .places{
+        padding: 3.875rem 0 4rem 0;
+        gap: 3.125rem;
+    }    
+}

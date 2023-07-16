@@ -7,6 +7,7 @@
     .place{
         display: block;
     }   
+
 }
 
 .place__header{
@@ -24,11 +25,32 @@
     }
 }
 
-.title{
-    font-family: 'Inter', sans-serif;
-    color: #FFFFFF;
+.place__title{
+    font-weight: 900;
+    font-size: 4.5rem;
+    line-height: 4.75rem;
+    width: 28.75rem;
+    margin: 0;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1280px){
+    .place__title{
+        font-weight: 900;
+        font-size: 2.625rem;
+        line-height: 2.875rem;
+        width: 21.25rem;
+    }
+}
+
+@media screen and (min-width: 20rem)  and (max-width: 767px) {
+    .place__title{
+        font-weight: 900;
+        font-size: 2rem;
+        line-height: 2.1875rem;
+        max-width: 18rem;
+        margin: 0 0 1.875rem 0;
+    }
+}
 .place__container{
     display: flex;
     flex-direction: column;
@@ -48,7 +70,6 @@
        margin-bottom: 30px;
     }
 }
-
 .place__subtitle{
     font-weight: 400;
     font-size: .75rem;
@@ -58,7 +79,6 @@
     color: #AAAAAA;
     margin-bottom: .5rem;
 }
-
 .place__cite{
     font-weight: 400;
     font-size: 1.125rem;
@@ -122,7 +142,6 @@
         margin: 0 auto;
     }
 }
-
 .place__button-in{
     display: flex;
 } 
@@ -132,6 +151,9 @@
         display: none;
     }
 }
+
+
+/* testando configurações de botões */
 
 .place__text{
     font-weight: 400;
@@ -156,7 +178,6 @@
         width: auto;
     }
 }
-
 .place__texts{
     display: flex;
     flex-direction: column;
@@ -174,15 +195,5 @@
         display: block;
         margin-bottom: 4.5rem;
         margin: 0 1rem;
-    }
-}
-
-.place__button-out{
-    display: none;
-}
-
-@media screen and (min-width: 20rem)  and (max-width: 767px) {
-    .place__button-out{
-        display: flex;
     }
 }

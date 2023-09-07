@@ -1,22 +1,22 @@
-.place{
+.place {
     display: flex;
     flex-direction: column;
 }
 
-@media screen and (min-width: 20rem)  and (max-width: 767px){
-    .place{
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .place {
         display: block;
-    }   
+    }
 
 }
 
-.place__header{
+.place__header {
     display: flex;
     margin-bottom: 3rem;
 }
 
-@media screen and (min-width: 20rem)  and (max-width: 767px) {
-    .place__header{
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .place__header {
         display: flex;
         flex-direction: column;
         margin-left: 16px;
@@ -25,7 +25,7 @@
     }
 }
 
-.place__title{
+.place__title {
     font-weight: 900;
     font-size: 4.5rem;
     line-height: 4.75rem;
@@ -33,8 +33,8 @@
     margin: 0;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1280px){
-    .place__title{
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    .place__title {
         font-weight: 900;
         font-size: 2.625rem;
         line-height: 2.875rem;
@@ -42,8 +42,8 @@
     }
 }
 
-@media screen and (min-width: 20rem)  and (max-width: 767px) {
-    .place__title{
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .place__title {
         font-weight: 900;
         font-size: 2rem;
         line-height: 2.1875rem;
@@ -51,26 +51,28 @@
         margin: 0 0 1.875rem 0;
     }
 }
-.place__container{
+
+.place__container {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     margin-left: 2.5rem;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1280px){
-    .place__container{
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    .place__container {
         margin-left: 28px;
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 47.9375rem) {
-    .place__container{
-       margin-left: 0;
-       margin-bottom: 30px;
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .place__container {
+        margin-left: 0;
+        margin-bottom: 30px;
     }
 }
-.place__subtitle{
+
+.place__subtitle {
     font-weight: 400;
     font-size: .75rem;
     line-height: .9375rem;
@@ -79,83 +81,84 @@
     color: #AAAAAA;
     margin-bottom: .5rem;
 }
-.place__cite{
+
+.place__cite {
     font-weight: 400;
     font-size: 1.125rem;
     line-height: 1.375rem;
 }
 
-@media screen and (min-width: 20rem)  and (max-width: 767px){
-    .place__cite{
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .place__cite {
         font-weight: 400;
         font-size: 1.125rem;
         line-height: 22px;
     }
 }
 
-.place__content{
+.place__content {
     display: flex;
 }
 
-@media screen and (min-width: 20rem)  and (max-width: 767px) {
-    .place__content{
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .place__content {
         display: block;
     }
 }
 
-.place__image{
+.place__image {
     width: 28.75rem;
     height: 28.75rem;
 }
 
 @media screen and (min-width: 1280px) {
-    .place__image{
+    .place__image {
         margin-bottom: 3rem;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1280px){
-    .place__image{
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    .place__image {
         width: 21.25rem;
         margin-bottom: 3rem;
         height: auto;
-}
+    }
 }
 
-@media screen and (min-width: 20rem)  and (max-width: 767px){
-    .place__image{
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .place__image {
         width: 100%;
         height: auto;
         margin-bottom: 1.875rem;
     }
 }
 
-.place__button{
+.place__button {
     width: 22.1875rem;
 }
 
-@media screen and (min-width: 20rem)  and (max-width: 767px){
-    .place__button{
-        /* width: 18rem; */
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .place__button {
         padding: 16px 22px;
-        width: 90%;
+        width: 80%;
         margin: 0 auto;
     }
 }
-.place__button-in{
-    display: flex;
-} 
 
-@media screen and (min-width: 20rem)  and (max-width: 767px){
-    .place__button-in{
-        display: none;
+.place__button-in {
+    display: flex;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .place__button-in {
+        display: flex;
+
+        margin-bottom: 20px;
     }
 }
 
 
-/* testando configurações de botões */
-
-.place__text{
+.place__text {
     font-weight: 400;
     font-size: 1.125rem;
     line-height: 163%;
@@ -163,35 +166,36 @@
     margin: 0 0 1.5625rem 0;
 }
 
-@media screen and (max-width: 768px){
-    .place__text{
+@media screen and (max-width: 768px) {
+    .place__text {
         font-size: 1rem;
         width: 22rem;
-        
+
     }
 }
 
-@media screen and (min-width: 20rem)  and (max-width: 767px) {
-    .place__text{
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .place__text {
         font-weight: 400;
         font-size: 1rem;
         width: auto;
     }
 }
-.place__texts{
+
+.place__texts {
     display: flex;
     flex-direction: column;
     margin-left: 2.5rem;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1280px){
-    .place__texts{
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    .place__texts {
         margin-left: .8125rem;
     }
 }
 
-@media screen and (min-width: 20rem) and (max-width: 47.9375rem){
-    .place__texts{
+@media screen and (min-width: 320px) and (max-width: 47.9375rem) {
+    .place__texts {
         display: block;
         margin-bottom: 4.5rem;
         margin: 0 1rem;

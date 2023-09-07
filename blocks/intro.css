@@ -14,7 +14,7 @@
     }
 }
 
-@media screen and (min-width: 20rem)  and (max-width: 767px) {
+@media screen and (min-width: 320px)  and (max-width: 767px) {
     .intro{
         padding: 2.75rem 0 0 0;
     }
@@ -31,7 +31,7 @@
     margin: 0;
 }
 
-@media screen and (min-width: 20rem)  and (max-width: 767px){
+@media screen and (min-width: 320px)  and (max-width: 767px){
     .intro__title{
         font-weight: 900;
         font-size: 32px;
@@ -47,7 +47,7 @@
     line-height: 2.125rem;
 }
 
-@media screen and (min-width: 20rem)  and (max-width: 767px){
+@media screen and (min-width: 320px)  and (max-width: 767px){
     .intro__quote{
         font-weight: 400;
         font-size: 1.5rem;
@@ -66,7 +66,7 @@
     max-width: 45rem;
 }
 
-@media screen and (min-width: 20rem)  and (max-width: 767px){
+@media screen and (min-width: 320px)  and (max-width: 767px){
     .intro__cite{
         font-weight: 400;
         font-size: 1.5rem;
@@ -95,7 +95,7 @@
     width: 90%;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1280px) {
+@media screen and (min-width: 767px) and (max-width: 1280px) {
     .intro__images{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
@@ -103,7 +103,7 @@
     }
 }
 
-@media screen and (min-width: 20rem)  and (max-width: 47.9375rem) {
+@media screen and (min-width: 320px)  and (max-width: 767px) {
     .intro__images{
         display: block;
         width: 100%;
@@ -124,7 +124,7 @@
     }
 }
 
-@media screen and (min-width: 20rem)  and (max-width: 767px){
+@media screen and (min-width: 320px)  and (max-width: 767px){
     .intro__image{
         width: 100%;
         margin-bottom: .75rem;

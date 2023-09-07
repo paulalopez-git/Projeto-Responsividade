@@ -2,11 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: auto; 
+    margin: auto;
 }
 
 
-.header__title{
+.header__title {
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -16,24 +16,27 @@
     line-height: 100px;
     max-width: 793px;
     max-height: 200px;
-   
+
 }
 
 
-
-
- 
-    
-
-@media screen and (min-width: 768px) and (max-width: 1280px) {
-    .header__title{
-       
+@media screen and (min-width: 767px) and (max-width: 1280px) {
+    .header__title {
+        margin: 5.6875rem 0 6.1875rem 0;
+        font-weight: 900;
+        font-size: 96px;
+        line-height: 100px;
+        max-width: 45rem;
     }
 }
 
-@media screen and (min-width: 20rem)  and (max-width: 767px) {
-    .header__title{
-        
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .header__title {
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 44px;
+        margin: 0 1rem 3.75rem 1rem;
+        min-width: 20rem;
     }
 }
 
@@ -50,41 +53,44 @@
     max-height: 72px;
     padding-bottom: 64px;
     margin: 0;
- 
 
-   
 }
 
-@media screen and (min-width: 768px) and (max-width: 1280px) {
-    .header__subtitle{
-        
+@media screen and (min-width: 767px) and (max-width: 1280px) {
+    .header__subtitle {
+        margin: 0 0 4.3125rem 0;
+        max-width: 45rem;
     }
 }
 
-@media screen and (min-width: 20rem)  and (max-width: 767px) {
-    .header__subtitle{
-        
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .header__subtitle {
+        font-size: 1rem;
+        line-height: 1.25rem;
+        max-width: 18rem;
+        margin: 0 0 2.5rem 0;
     }
 }
 
 
-.header__image{
+.header__image {
     width: 984px;
     height: 615px;
     flex-shrink: 0;
     filter: grayscale(1);
-}   
+}
 
 
 @media screen and (max-width: 768px) {
     .header__image {
-      width: 100%;
-      margin: 0;
+        width: 100%;
+        margin: 0;
     }
 }
 
-@media screen and (min-width: 20rem)  and (max-width: 767px) {
-  .header__image{
-    width: 100%;
-  }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .header__image {
+        width: 100%;
+        margin: 0;
+    }
 }

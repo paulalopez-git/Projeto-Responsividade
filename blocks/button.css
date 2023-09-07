@@ -1,4 +1,5 @@
 .button{
+    box-sizing: border-box;
     display: inline-flex;
     padding: 13px 20px;
     align-items: flex-start;
@@ -15,15 +16,14 @@
 }
 
 .button__text{
-    color: #FFF;
-    font-family: Inter;
-    font-size: 18px;
-    font-style: normal;
+    color: white;
     font-weight: 600;
-    
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    text-align: center;
 }
 
-@media screen and (min-width: 20rem)  and (max-width: 767px) {
+@media screen and (min-width: 320px)  and (max-width: 767px) {
     .button__text{
         font-weight: 600;
         font-size: .875rem;
